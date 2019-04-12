@@ -1,0 +1,22 @@
+int main()
+{
+    int number;
+    int number1;
+    int number2;
+    
+    cout << "Enter month ";
+    
+    cin >> number;
+    
+    cout << "Enter day ";
+    
+    cin >> number1;
+    
+    cout << "Enter year ";
+    
+    cin >> number2;
+
+   if (number1 > 31 )
+    {
+        cout << "Invalid date "  << endl;
+    }
